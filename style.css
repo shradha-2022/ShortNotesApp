@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    background:linear-gradient(to left,rgb(255, 0, 47),rgb(0, 166, 255)
+    );
+    font-family: cursive;
+}
+.heading{
+    color: rgb(7, 7, 6);
+    text-align: center;
+    padding-top: 10px;
+    text-shadow: 1px 1px 2px pink;
+    font-size: 35px;
+}
+.info-text{
+    text-align: center;
+    text-shadow: #FC0 1px 0 10px;
+    color: rgb(188, 202, 157);
+    font-size: 18px;
+}
+.app{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,300px);
+    gap:40px;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+.note{
+    padding: 17px;
+    border-radius: 15px;
+    resize: none;
+    box-shadow: 0 0 3px rgb(0, 0,0, .3);
+    font-size: 20px;
+    height: 200px;
+    color: black;
+    border:none;
+    outline: none;
+    background: rgba(164, 225, 241, 0.909);
+    box-sizing: border-box;
+}
+.note::placeholder{
+    color: gray;
+    opacity: 30%;
+}
+.note:hover,.note.focus{
+    box-shadow: 0 0 30px rgba(0,0,0,.5);
+    transition: all 300ms ease;
+}
+.btn{
+    height: 200px;
+    border-color:rgb(255,255,255,0.4) ;
+    background: rgba(164, 225, 241, 0.909);
+    border-radius: 15px;
+    font-size: 70px;
+    font-weight: 700;
+    color: rgba(0,0,0, 0.3);
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color: rgba(164, 225, 241, 0.909);
+    color: rgba(0,0,0,0.6);
+    transition: all 300ms ease;
+
+}
